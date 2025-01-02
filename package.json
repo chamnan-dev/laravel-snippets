@@ -1,0 +1,161 @@
+{
+    "name": "laravel-snippets",
+    "displayName": "Laravel Snippets",
+    "description": "Laravel snippets for Visual Studio Code  (Support Laravel)",
+    "version": "1.18.0",
+    "publisher": "chamnan dev",
+    "author": {
+        "name": "Chou Chamnan",
+        "email": "chou.chamnan.kh@gmail.com",
+        "url": "https://chamnan-dev.vercel.app"
+    },
+    "homepage": "https://github.com/onecentlin/laravel-snippets",
+
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/onecentlin/laravel5-snippets-vscode"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "keywords": [
+        "laravel",
+        "snippet",
+        "laravel5",
+        "laravel6",
+        "laravel7",
+        "laravel8",
+        "laravel9",
+        "laravel10",
+        "laravel11",
+        "laravelmaster"
+    ],
+    "icon": "images/laravel.logo.png",
+    "galleryBanner": {
+        "color": "#f66f62",
+        "theme": "dark"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/arr.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/auth.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/cache.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/config.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/console.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/cookie.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/crypt.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/db.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/eloquent.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/event.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/hash.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/helper.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/log.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/mail.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/model.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/redirect.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/relation.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/request.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/response.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/route.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/schema.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/session.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/storage.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/view.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/passport.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/str.json"
+            },
+            {
+                "language": "php",
+                "path": "./snippets/broadcast.json"
+            },
+            {
+                "language": "blade",
+                "path": "./snippets/collective_form_html.json"
+            },
+            {
+                "language": "chamnan",
+                "path": "./snippets/collective_form_html.json"
+            }
+        ]
+    }
+}
